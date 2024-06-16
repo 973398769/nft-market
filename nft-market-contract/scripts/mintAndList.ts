@@ -6,6 +6,7 @@ const mintAndListFunction = async () => {
   const nfTMarketPlace: NFTMarketPlace = await ethers.getContract(
     "NFTMarketPlace"
   );
+  
   const basicNft: BasicNft = await ethers.getContract("BasicNft");
   console.log("Minting NFT...");
 
